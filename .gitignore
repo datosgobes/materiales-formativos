@@ -1,0 +1,14 @@
+elm-stuff
+node_modules
+*.tgz
+*~
+dist
+.DS_Store
+.cache
+.env
+.parcel-cache
+.vscode
+static/README.md
+backup/**
+benchmark
+parcel-bundle-reports
