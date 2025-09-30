@@ -24,6 +24,12 @@ Recursos didácticos abiertos sobre Reutilización de la Información del Sector
 - Interactividad nativa: cuestionarios, bloques ejecutables, incrustación multimedia y narración.
 - Estilos, imágenes y recursos compartidos para una experiencia homogénea.
 
+### Unidades didácticas interactivas
+
+| Unidad | Ver en LiaScript | Documento PDF | Material original |
+|--------|------------------|-------------------|-------------------|
+| Unidad 06 - Reutilización de la Información del Sector Público: DCAT-AP y la Norma Técnica de Interoperabilidad de Reutilización de Recursos de Información. (NTI-RISP) | [Ver](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/materiales-formativos/main/unidades/06.md) | [Descargar](https://github.com/datosgobes/materiales-formativos/blob/main/ref/unidades/06.pdf) | [Ver](https://datos.gob.es/es/conocimiento/dcat-ap-y-la-norma-tecnica-de-interoperabilidad-de-reutilizacion-de-recursos-de) |
+
 ## ¿Cómo usar estos materiales?
 
 ### Renderizar documentación LiaScript (navegador)
