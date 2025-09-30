@@ -75,7 +75,7 @@ liascript-devserver --input unidades --live -o
 ```
 
 >[!TIP]
-> Para modificar el CSS en local, puedes modificar en las opciones de configuracion (inicio del Markdown) `link: https://cdn.jsdelivr.net/gh/datosgobes/materiales-formativos@main/assets/css/dge-liascript.css` por una hoja CSS situada en el mismo directorio que el document, ej `./dge-liascript.css`
+> Para modificar el CSS en local, puedes modificar en las opciones de configuracion (inicio del Markdown) `link: https://cdn.jsdelivr.net/gh/datosgobes/materiales-formativos@main/assets/css/dge-styles.css` por una hoja CSS situada en el mismo directorio que el document, ej `./dge-styles.css`
 
 
 Salida esperada (ejemplo):
