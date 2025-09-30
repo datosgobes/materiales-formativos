@@ -178,6 +178,22 @@ ul.logo-list.primary-logos li:first-child img,
     }
 }
 
+.pdf-download-btn {
+    display:inline-block;
+    background:rgba(var(--color-highlight));
+    color:rgba(var(--lia-white)) !important;
+    font-weight:600;
+    padding:0.75em 1.5em;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:1.05em;
+    box-shadow:0 2px 8px rgba(25,118,210,0.08);
+    transition:background 0.2s;
+}
+.pdf-download-btn:hover {
+    background:rgba(var(--red-aporta));
+}
+
 /* ========== CONFIGURACIÓN DEL TOC (TABLA DE CONTENIDOS) ========== */
 /* Ocultar niveles inferiores al nivel 2 en el TOC */
 /* .lia-toc__link--is-lvl-3,
