@@ -106,5 +106,5 @@ Contenido con licencia Creative Commons Attribution 4.0 International (CC BY 4.0
 
 ## Enlaces de interés
 
-- Iniciativa Aporta — Materiales formativos RISP: https://datos.gob.es/es/conocimiento/materiales-formativos-risp-de-iniciativa-aporta
-- LiaScript — Documentación y ejemplos: https://liascript.github.io
+- Iniciativa Aporta — [Materiales formativos RISP](https://datos.gob.es/es/conocimiento/materiales-formativos-risp-de-iniciativa-aporta)
+- LiaScript — [Documentación y ejemplos](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md)
