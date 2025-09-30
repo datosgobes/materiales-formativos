@@ -12,3 +12,8 @@ static/README.md
 backup/**
 benchmark
 parcel-bundle-reports
+
+# Project
+.vscode/settings.json
+assets/css/*.old.css
+unidades/*.css
