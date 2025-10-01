@@ -16,7 +16,7 @@ Recursos didácticos abiertos sobre Reutilización de la Información del Sector
 
 [![Abrir en LiaScript](https://img.shields.io/badge/Ver%20online-Abrir%20en%20LiaScript-brightgreen)](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/materiales-formativos/refs/heads/main/README.md)
 [![License: CC-BY 4.0](https://img.shields.io/badge/CC%20BY-4.0-lightgrey?logo=creativecommons)](LICENSE)
-[![Hecho con Markdown](https://img.shields.io/badge/Made%20with-Markdown-blueviolet)](https://github.com/datosgobes)
+[![Hecho con Markdown](https://img.shields.io/badge/Made%20with-Markdown-blueviolet)](https://spec.commonmark.org/0.31.2/)
 
 ## ¿Qué hay en este repositorio?
 
