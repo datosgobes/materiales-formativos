@@ -77,6 +77,10 @@ body {
     color: rgb(var(--lia-red));
 }
 
+figure figcaption {
+    text-align: center;
+}
+
 /* Logos en el header */
 /* Header Logos row */
 .dge-entidades {
