@@ -97,6 +97,12 @@ Salida esperada (ejemplo):
 ✨ hit Ctrl-c to close the server
 ```
 
+## Plantilla para nuevas unidades
+
+Para crear nuevas unidades formativas con la estructura y componentes recomendados, consulta y reutiliza la plantilla:
+
+- [docs/README-PLANTILLA-UNIDAD.md](docs/README-PLANTILLA-UNIDAD.md) — Guía y ejemplos de estructura, secciones y componentes reutilizables para cursos en LiaScript.
+
 ## Estructura del repositorio
 
 - `unidades/` — Unidades didácticas principales (LiaScript Markdown).
