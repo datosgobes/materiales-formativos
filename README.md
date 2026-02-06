@@ -26,11 +26,11 @@ Recursos didácticos abiertos sobre Reutilización de la Información del Sector
 
 ### Unidades didácticas interactivas
 
-| Unidad | Ver en LiaScript | Documento PDF | Material original |
-|--------|------------------|-------------------|-------------------|
-| Unidad 00 - Materiales formativos datos.gob.es (2026) | [Ver](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/unidad-formativa-00/main/CURSO.md) | [Descargar](https://github.com/datosgobes/unidad-formativa-00/releases/download/latest/documentation-unidad-formativa-00.pdf) | [Ver](https://datos.gob.es/es/conocimiento/materiales-formativos-risp-de-iniciativa-aporta) |
-| Unidad 01 - Conceptos básicos, beneficios del Open Data y barreras | [Ver](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/unidad-formativa-01/main/CURSO.md) | [Descargar](https://github.com/datosgobes/unidad-formativa-01/releases/download/latest/documentation-unidad-formativa-01.pdf) | [Ver](https://datos.gob.es/es/documentacion/conceptos-basicos-beneficios-del-open-data-y-barreras-para-su-aplicacion) |
-| Unidad 06 - Reutilización de la Información del Sector Público: DCAT-AP y la Norma Técnica de Interoperabilidad de Reutilización de Recursos de Información. (NTI-RISP) | [Ver](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/unidad-formativa-06/main/CURSO.md) | [Descargar](https://github.com/datosgobes/unidad-formativa-06/releases/download/latest/documentation-unidad-formativa-06.pdf) | [Ver](https://datos.gob.es/es/conocimiento/dcat-ap-y-la-norma-tecnica-de-interoperabilidad-de-reutilizacion-de-recursos-de) |
+| Unidad | Ver en LiaScript | Repositorio | Documento PDF | Material original |
+|--------|------------------|-------------------|-------------------|-------------------|
+| Unidad 00 - Materiales formativos datos.gob.es (2026) | [Ver](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/unidad-formativa-00/main/CURSO.md) | [datosgobes/unidad-formativa-00](https://github.com/datosgobes/unidad-formativa-00) | [Descargar](https://github.com/datosgobes/unidad-formativa-00/releases/download/latest/documentation-unidad-formativa-00.pdf) | [Ver](https://datos.gob.es/es/conocimiento/materiales-formativos-risp-de-iniciativa-aporta) |
+| Unidad 01 - Conceptos básicos, beneficios del Open Data y barreras | [Ver](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/unidad-formativa-01/main/CURSO.md) | [datosgobes/unidad-formativa-01](https://github.com/datosgobes/unidad-formativa-01) | [Descargar](https://github.com/datosgobes/unidad-formativa-01/releases/download/latest/documentation-unidad-formativa-01.pdf) | [Ver](https://datos.gob.es/es/documentacion/conceptos-basicos-beneficios-del-open-data-y-barreras-para-su-aplicacion) |
+| Unidad 06 - Reutilización de la Información del Sector Público: DCAT-AP y la Norma Técnica de Interoperabilidad de Reutilización de Recursos de Información. (NTI-RISP) | [Ver](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/unidad-formativa-06/main/CURSO.md) | [datosgobes/unidad-formativa-06](https://github.com/datosgobes/unidad-formativa-06) | [Descargar](https://github.com/datosgobes/unidad-formativa-06/releases/download/latest/documentation-unidad-formativa-06.pdf) | [Ver](https://datos.gob.es/es/conocimiento/dcat-ap-y-la-norma-tecnica-de-interoperabilidad-de-reutilizacion-de-recursos-de) |
 
 ## ¿Cómo usar estos materiales?
 
@@ -101,7 +101,7 @@ Salida esperada (ejemplo):
 
 Para crear nuevas unidades formativas con la estructura y componentes recomendados, consulta y reutiliza la plantilla:
 
-- [docs/README-PLANTILLA-UNIDAD.md](docs/README-PLANTILLA-UNIDAD.md) — Guía y ejemplos de estructura, secciones y componentes reutilizables para cursos en LiaScript.
+- [`docs/README-PLANTILLA-UNIDAD.md`](docs/README-PLANTILLA-UNIDAD.md) — Guía y ejemplos de estructura, secciones y componentes reutilizables para cursos en LiaScript.
 
 ## Estructura del repositorio
 

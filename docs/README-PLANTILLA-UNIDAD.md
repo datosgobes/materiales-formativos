@@ -2,6 +2,17 @@
 
 Este documento recopila todos los componentes reutilizables (estructuras, secciones y elementos visuales) utilizados en las unidades formativas, para facilitar la creación de nuevos cursos manteniendo la coherencia visual, estructural y funcional.
 
+
+<center>
+
+**Ejemplo de unidad formativa**
+
+| Unidad de ejemplo | CURSO.md completo | Ver en LiaScript |
+|-------------------|-------------------|------------------|
+| Unidad 01 - Conceptos básicos y beneficios | [`CURSO.md`](https://github.com/datosgobes/unidad-formativa-01/blob/main/CURSO.md) | [Abrir](https://liascript.github.io/course/?https://raw.githubusercontent.com/datosgobes/unidad-formativa-01/main/CURSO.md) |
+
+</center>
+
 ---
 
 ## Índice
