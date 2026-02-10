@@ -38,7 +38,7 @@ Este documento recopila todos los componentes reutilizables (estructuras, seccio
 - [ℹ️ Más información](#mas-informacion)
 - [🔍 Saber más](#saber-mas)
 - [🧪 Caso de estudio](#caso-de-estudio)
-- [🏋️ Ejercicio](#ejercicio)
+- [✏️ Ejercicio](#ejercicio)
 
 ---
 
@@ -206,7 +206,7 @@ Recursos disponibles:
 - <span class="res res-mas-info">ℹ️ <strong>Más información</strong></span>: material de relevancia que complementa lo explicado.
 - <span class="res res-saber">🔍 <strong>Saber más</strong></span>: referencias y documentos adicionales.
 - <span class="res res-caso">🧪 <strong>Caso de estudio</strong></span>: casos reales para afianzar conocimientos.
-- <span class="res res-ejercicio">🏋️ <strong>Ejercicio</strong></span>: actividades para aplicar los conocimientos adquiridos.
+- <span class="res res-ejercicio">✏️ <strong>Ejercicio</strong></span>: actividades para aplicar los conocimientos adquiridos.
 
 {{4}}
 Existe la opción de seleccionar otro idioma para el curso usando la traducción -si existe aparecen listados- o seleccionando el servicio de traducción automática con un solo clic. Ten presente que la traducción automática puede contener errores o interpretaciones incorrectas de algunos conceptos.
@@ -495,12 +495,12 @@ Para organizar contenido extenso en subsecciones.
 
 ---
 
-## <span id="ejercicio">🏋️ Ejercicio</span>
+## <span id="ejercicio">✏️ Ejercicio</span>
 
 ```html
 <div style="background:#f3e8ff; border-left:4px solid #9333ea; padding:0; border-radius:8px; overflow:hidden; margin-top:1.5rem; margin-bottom:1.5rem;">
   <div style="background:#e9d5ff; color:#9333ea; padding:0.6rem 1rem; font-weight:600; font-size:1.05em;">
-    🏋️ Ejercicio
+    ✏️ Ejercicio
   </div>
   <div style="padding:0 1rem 0 1rem;">
     <p style="margin:0.25rem 0 0.5rem 0;">
@@ -518,5 +518,6 @@ Para organizar contenido extenso en subsecciones.
 - Se recomienda mantener los márgenes para evitar solapamientos visuales.
 - Puedes copiar y pegar estos bloques en cualquier parte de tus materiales formativos.
 - Personaliza el contenido interno según el contexto de tu curso.
+
 
 ---
