@@ -60,8 +60,8 @@ npm install -g @liascript/devserver
 Levantar el servidor desde la carpeta del proyecto (por ejemplo, desde la raíz del repositorio `materiales-formativos`):
 
 ```sh
-# Clona el repositorio
-git clone https://github.com/datosgobes/materiales-formativos.git
+# Clona un repositorio de materiales formativas, ej la unidad 01
+git clone https://github.com/datosgobes/unidad-formativa-01.git
 
 # en el directorio del proyecto
 liascript-devserver
@@ -69,11 +69,11 @@ liascript-devserver
 # o para abrir el navegador automáticamente en la vista del archivo actual
 liascript-devserver --open
 # usar una carpeta concreta como raíz
-liascript-devserver -i unidades -o
+liascript-devserver --input .\CURSO.md -o
 # puerto alternativo
 liascript-devserver -p 3001 -o
 # live reload (recarga automática al guardar)
-liascript-devserver --input unidades --live -o
+liascript-devserver --input .\CURSO.md --live -o
 ```
 
 >[!TIP]
@@ -90,7 +90,7 @@ Salida esperada (ejemplo):
 |_____|_|\__,_|____/ \___|_|  |_| .__/ \__|
                                 |_|
 
-✨ watching for changes on: "unidades"
+✨ watching for changes on: "CURSO.md"
 📡 starting server
    - local:           http://localhost:3000
    - on your network: http://192.168.68.102:3000
