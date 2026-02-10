@@ -33,12 +33,13 @@ Este documento recopila todos los componentes reutilizables (estructuras, seccio
 
 ### Componentes visuales pedagógicos
 - [📖 Fuente](#fuente)
-- [🧭 Ejemplo](#ejemplo)
+- [💡 Ejemplo](#ejemplo)
 - [⚠️ Aviso](#aviso)
 - [ℹ️ Más información](#mas-informacion)
 - [🔍 Saber más](#saber-mas)
 - [🧪 Caso de estudio](#caso-de-estudio)
 - [✏️ Ejercicio](#ejercicio)
+- [📋 Cuestionario final](#cuestionario-final)
 
 ---
 
@@ -201,7 +202,7 @@ Al finalizar cada sección, tendrás la oportunidad de responder preguntas para 
 Recursos disponibles:
 
 - <span class="res res-fuente">📖 <strong>Fuente</strong></span>: origen de la definición o de la información que respalda el concepto o información que se está presentando.
-- <span class="res res-ejemplo">🧭 <strong>Ejemplo</strong></span>: casos concretos que facilitan la comprensión.
+- <span class="res res-ejemplo">💡 <strong>Ejemplo</strong></span>: casos concretos que facilitan la comprensión.
 - <span class="res res-aviso">⚠️ <strong>Aviso</strong></span>: consejo o dato práctico para entender lo presentado.
 - <span class="res res-mas-info">ℹ️ <strong>Más información</strong></span>: material de relevancia que complementa lo explicado.
 - <span class="res res-saber">🔍 <strong>Saber más</strong></span>: referencias y documentos adicionales.
@@ -410,12 +411,12 @@ Para organizar contenido extenso en subsecciones.
 
 ---
 
-## <span id="ejemplo">🧭 Ejemplo</span>
+## <span id="ejemplo">💡 Ejemplo</span>
 
 ```html
 <div style="background:#ebf8ed; border-left:4px solid #3fb950; padding:0; border-radius:8px; overflow:hidden; margin-top:1.5rem; margin-bottom:1.5rem;">
   <div style="background:#d8f1dc; color:#3fb950; padding:0.6rem 1rem; font-weight:600; font-size:1.05em;">
-    🧭 Ejemplo
+    💡 Ejemplo
   </div>
   <div style="padding:0 1rem 0 1rem;">
     <p style="margin:0.25rem 0 0.5rem 0;">
@@ -498,13 +499,31 @@ Para organizar contenido extenso en subsecciones.
 ## <span id="ejercicio">✏️ Ejercicio</span>
 
 ```html
-<div style="background:#f3e8ff; border-left:4px solid #9333ea; padding:0; border-radius:8px; overflow:hidden; margin-top:1.5rem; margin-bottom:1.5rem;">
-  <div style="background:#e9d5ff; color:#9333ea; padding:0.6rem 1rem; font-weight:600; font-size:1.05em;">
-    ✏️ Ejercicio
+<div style="background:#ffffff; border:2px solid #154481; border-radius:12px; box-shadow:0 2px 8px rgba(21,68,129,0.15); margin:1.5rem 0; overflow:hidden;">
+  <div style="background:linear-gradient(135deg, #072142 0%, #154481 100%); color:#ffffff; padding:1rem 1.5rem; display:flex; align-items:center; gap:0.75rem;">
+    <div style="font-size:1.5em;">✏️</div>
+    <h4 style="margin:0; font-size:1.3em; font-weight:600;">Ejercicio</h4>
   </div>
-  <div style="padding:0 1rem 0 1rem;">
-    <p style="margin:0.25rem 0 0.5rem 0;">
-      Actividad diseñada para aplicar los conocimientos adquiridos en la unidad formativa.
+  <div style="padding:1.25rem 1.5rem; background:#f8fafc;">
+    <p style="margin:0; font-size:1em; color:#333; line-height:1.6;">
+      Indica cuáles de las siguientes afirmaciones sobre los beneficios de los datos abiertos son verdaderas y cuáles falsas.
+    </p>
+  </div>
+</div>
+```
+
+## <span id="cuestionario-final">📋 Cuestionario final</span>
+
+```html
+<div style="background:#ffffff; border:2px solid #154481; border-radius:16px; box-shadow:0 4px 12px rgba(147,51,234,0.2); margin:2rem 0; overflow:hidden;">
+  <div style="background:linear-gradient(135deg, #072142 0%, #154481 100%); color:#ffffff; padding:2rem; text-align:center;">
+    <div style="font-size:3em; margin-bottom:0.5rem;">📋</div>
+    <h3 style="margin:0; font-size:2em; font-weight:700; text-transform:uppercase; letter-spacing:1px;">Cuestionario Final</h3>
+    <p style="margin:0.75rem 0 0 0; font-size:1.1em; opacity:0.95;">Evalúa tus conocimientos sobre datos abiertos</p>
+  </div>
+  <div style="padding:1.5rem 2rem; background:linear-gradient(to bottom, #faf5ff 0%, #ffffff 100%);">
+    <p style="margin:0; font-size:1.05em; color:#333; text-align:center;">
+      <strong>Instrucciones:</strong> Indica si cada afirmación es <strong>verdadera</strong> o <strong>falsa</strong>
     </p>
   </div>
 </div>
