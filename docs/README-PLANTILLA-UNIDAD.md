@@ -30,7 +30,7 @@ Este documento recopila todos los componentes reutilizables (estructuras, seccio
 - [Conocimientos previos](#conocimientos-previos)
 - [Introducción de contenido](#introduccion-contenido)
 - [Bloque de contenido con subsecciones](#bloque-contenido)
-- [Bloque de saber más sobre la Iniciativa Aporta](#saber-mas)
+- [Bloque de contacto con la Iniciativa Aporta](#contacto)
 
 ### Componentes visuales pedagógicos
 - [📖 Fuente](#fuente)
@@ -401,13 +401,13 @@ Para organizar contenido extenso en subsecciones.
 
 ---
 
-### <span id="saber-mas">Bloque de saber más sobre la Iniciativa Aporta</span>
+### <span id="saber-mas">Bloque de contacto con la Iniciativa Aporta</span>
 
 Para presentar opciones de contacto y más información.
 
 ```markdown
-<!-- id="saber-mas" -->
-## SABER MÁS
+<!-- id="contacto" -->
+## CONTACTO
 
 {{|>}}
 *************************************************************************************************************
