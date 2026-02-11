@@ -30,6 +30,7 @@ Este documento recopila todos los componentes reutilizables (estructuras, seccio
 - [Conocimientos previos](#conocimientos-previos)
 - [Introducción de contenido](#introduccion-contenido)
 - [Bloque de contenido con subsecciones](#bloque-contenido)
+- [Bloque de saber más sobre la Iniciativa Aporta](#saber-mas)
 
 ### Componentes visuales pedagógicos
 - [📖 Fuente](#fuente)
@@ -396,6 +397,55 @@ Para organizar contenido extenso en subsecciones.
 [Contenido de la subsección]
 
 *************************************************************************************************************>
+```
+
+---
+
+### <span id="saber-mas">Bloque de saber más sobre la Iniciativa Aporta</span>
+
+Para presentar opciones de contacto y más información.
+
+```markdown
+<!-- id="saber-mas" -->
+## SABER MÁS
+
+{{|>}}
+*************************************************************************************************************
+
+<div style="background:#ffffff; border:2px solid #154481; border-radius:16px; box-shadow:0 4px 12px rgba(21,68,129,0.2); margin:2rem 0; overflow:hidden;">
+  <div style="background:linear-gradient(135deg, #072142 0%, #154481 100%); color:#ffffff; padding:2rem; text-align:center;">
+    <img src="https://raw.githubusercontent.com/datosgobes/materiales-formativos/refs/heads/main/assets/img/logo_iniciativa-aporta.svg" alt="Iniciativa Aporta" style="height:60px; margin-bottom:1rem; filter:brightness(0) invert(1);">
+    <h3 style="margin:0; font-size:1.75em; font-weight:700;">¿Quieres saber más sobre la Iniciativa Aporta?</h3>
+    <p style="margin:0.75rem 0 0 0; font-size:1.05em; opacity:0.9;">Descubre todo el potencial de los datos abiertos en España</p>
+  </div>
+  <div style="padding:1.5rem 2rem; background:linear-gradient(to bottom, #f0f7ff 0%, #ffffff 100%);">
+    <div style="display:flex; flex-direction:column; gap:1rem;">
+      <a href="https://datos.gob.es/" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:1rem; padding:1rem 1.25rem; background:#ffffff; border:2px solid #e0e7ef; border-radius:12px; text-decoration:none; color:#333; box-shadow:0 2px 4px rgba(0,0,0,0.05); cursor:pointer;" onmouseover="this.style.borderColor='#154481'; this.style.boxShadow='0 6px 16px rgba(21,68,129,0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.borderColor='#e0e7ef'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'; this.style.transform='translateY(0)';">
+        <div style="background:#154481; color:#fff; width:50px; height:50px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:1.5em; flex-shrink:0;">🌐</div>
+        <div>
+          <div style="font-weight:700; font-size:1.1em; color:#154481;">Visita datos.gob.es</div>
+          <div style="font-size:0.9em; color:#666; margin-top:0.25rem;">Portal nacional de datos abiertos de España</div>
+        </div>
+      </a>
+      <a href="http://bit.ly/2IY8JgV" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:1rem; padding:1rem 1.25rem; background:#ffffff; border:2px solid #e0e7ef; border-radius:12px; text-decoration:none; color:#333; box-shadow:0 2px 4px rgba(0,0,0,0.05); cursor:pointer;" onmouseover="this.style.borderColor='#10b981'; this.style.boxShadow='0 6px 16px rgba(16,185,129,0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.borderColor='#e0e7ef'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'; this.style.transform='translateY(0)';">
+        <div style="background:#10b981; color:#fff; width:50px; height:50px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:1.5em; flex-shrink:0;">📬</div>
+        <div>
+          <div style="font-weight:700; font-size:1.1em; color:#10b981;">Suscríbete al boletín</div>
+          <div style="font-size:0.9em; color:#666; margin-top:0.25rem;">Recibe las últimas novedades en tu correo</div>
+        </div>
+      </a>
+      <a href="https://datos.gob.es/es/form/contact" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:1rem; padding:1rem 1.25rem; background:#ffffff; border:2px solid #e0e7ef; border-radius:12px; text-decoration:none; color:#333; box-shadow:0 2px 4px rgba(0,0,0,0.05); cursor:pointer;" onmouseover="this.style.borderColor='#f59e0b'; this.style.boxShadow='0 6px 16px rgba(245,158,11,0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.borderColor='#e0e7ef'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'; this.style.transform='translateY(0)';">
+        <div style="background:#f59e0b; color:#fff; width:50px; height:50px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:1.5em; flex-shrink:0;">💬</div>
+        <div>
+          <div style="font-weight:700; font-size:1.1em; color:#d97706;">Contacta con nosotros</div>
+          <div style="font-size:0.9em; color:#666; margin-top:0.25rem;">Sugerencias, mejoras o incidencias</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+*************************************************************************************************************
 ```
 
 ---
