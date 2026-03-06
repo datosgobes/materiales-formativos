@@ -5,10 +5,12 @@
 
 :root {
     /* Colores principales del repositorio DCAT-AP-ES */
-    --red-aporta: 229, 1, 62;
-    --red-aporta-light: #f5d0d6;
-    --blue-aporta: 68, 109, 162;
-    --blue-aporta-dark: 80, 143, 226;
+    --red-aporta: 206, 14, 45;
+    --red-aporta-light: 218, 139, 151;
+    --blue-aporta: 14, 48, 98;
+    --blue-aporta-light: 80, 143, 226;
+    --amarillo-aporta: 249, 206, 63;
+    --amarillo-aporta-light: 248, 232, 168;
     
     /* Variables específicas para LiaScript */
     --lia-anthracite: 75,75,75;
@@ -28,15 +30,15 @@
     --lia-turquoise: 57,145,147;
     --lia-warning: 244,195,67;
     --lia-white: 255,255,255;
-    --lia-yellow-darker: 124,60,0;
-    --lia-yellow-dark: 189,125,32;
-    --lia-yellow: 227,151,38;
+    --lia-yellow-darker: var(--amarillo-aporta);
+    --lia-yellow-dark: var(--amarillo-aporta);
+    --lia-yellow: var(--amarillo-aporta-light);
     --lia-black: 0,0,0;
     --color-background: var(--lia-white);
     --color-border: var(--lia-grey-light);
-    --color-highlight-dark: var(--blue-aporta-dark);
-    --color-highlight-menu: var(--blue-aporta);
-    --color-highlight: var(--blue-aporta);
+    --color-highlight-dark: var(--blue-aporta);
+    --color-highlight-menu: var(--blue-aporta-light);
+    --color-highlight: var(--blue-aporta-light);
     --color-text: var(--lia-anthracite);
 }
 
@@ -52,12 +54,19 @@ body {
   text-align: justify;
 }
 
-.h1, .h2, .h3 {
+.h1, .h2, .h3 .h4 {
     font-family: 'Montserrat';
     line-height: 1.35;
     align-content: center;
     text-align: center;
 }
+h1, h2, h3 h4 {
+    font-family: 'Montserrat';
+    line-height: 1.35;
+    align-content: center;
+    text-align: center;
+}
+
 
 .icon::before {
   display: inline-block;
@@ -213,7 +222,7 @@ ul.logo-list.primary-logos li:first-child img,
 }
  */
 
- .concepto {
+.concepto {
     background:rgba(var(--amarillo-aporta-light));
     padding: 0.6rem 1rem;
     margin: 2rem 0 0 0;
