@@ -212,3 +212,80 @@ ul.logo-list.primary-logos li:first-child img,
     display: none !important;
 }
  */
+
+ .concepto {
+    background:rgba(var(--amarillo-aporta-light));
+    padding: 0.6rem 1rem;
+    margin: 2rem 0 0 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.ejemplo_caja {
+    margin:0 0 0 2rem;
+    border-left: .5rem solid #154481;
+    overflow:hidden;
+}
+.ejemplo_titulo {
+    background:#f7faff; 
+    padding:0.6rem 1rem; 
+    font-weight: 600;
+}
+.ejemplo_contenido {
+    padding:0 1rem 0 2rem;
+}
+
+.aviso_caja {
+    margin:0 0 0 2rem;
+    border-left: .5rem solid #154481;
+    overflow:hidden;
+}
+.aviso_titulo {
+    background:#f7faff; 
+    padding:0.6rem 1rem; 
+    font-weight: 600;
+}
+.aviso_contenido {
+    padding:0 1rem 0 2rem;
+}
+
+.masinfo_caja {
+    margin:0 0 0 2rem;
+    border-left: .5rem solid #154481;
+    overflow:hidden;
+}
+.masinfo_titulo {
+    background:#f7faff; 
+    padding:0.6rem 1rem; 
+    font-weight: 600;
+}
+.masinfo_contenido {
+    padding:0 1rem 0 2rem;
+}
+
+.sabermas_caja {
+    margin:0 0 0 2rem;
+    border-left: .5rem solid #154481;
+    overflow:hidden;
+}
+.sabermas_titulo {
+    background:#f7faff; 
+    padding:0.6rem 1rem; 
+    font-weight: 600;
+}
+.sabermas_contenido {
+    padding:0 1rem 0 2rem;
+}
+
+.casoestudio_caja {
+    margin:0 0 0 2rem;
+    border-left: .5rem solid #154481;
+    overflow:hidden;
+}
+.casoestudio_titulo {
+    background:#f7faff; 
+    padding:0.6rem 1rem; 
+    font-weight: 600;
+}
+.casoestudio_contenido {
+    padding:0 1rem 0 2rem;
+}
