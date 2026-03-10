@@ -229,6 +229,13 @@ ul.logo-list.primary-logos li:first-child img,
     font-size: 1.75rem;
     font-weight: 600;
 }
+.concepto_otros {
+    background:rgba(var(--red-aporta-light));
+    padding: 0.6rem 1rem;
+    margin: 2rem 0 0 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
 .ejemplo_caja {
     margin:0 0 0 2rem;
     border-left: .5rem solid #154481;
@@ -297,4 +304,69 @@ ul.logo-list.primary-logos li:first-child img,
 }
 .casoestudio_contenido {
     padding:0 1rem 0 2rem;
+}
+
+.ejercicio_caja, .presentacion_caja {
+    background:#ffffff; 
+    border:2px solid #154481; 
+    border-radius:12px; 
+    box-shadow:0 2px 8px rgba(21,68,129,0.15); 
+    margin:1.5rem 0; 
+    overflow:hidden;
+}
+.ejercicio_titulo, .presentacion_titulo {
+    background:linear-gradient(135deg, #072142 0%, #154481 100%); 
+    color:#ffffff; 
+    padding:1rem 1.5rem; 
+    display:flex; 
+    align-items:center; 
+    gap:0.75rem;
+}
+.ejercicio_tituloH, .presentacion_tituloH {
+    margin:0; font-size:1.3em; 
+    font-weight:600; 
+    font-family:'Montserrat', sans-serif;
+}
+.ejercicio_contenido {
+    padding:1.25rem 1.5rem;
+    background:#f8fafc;
+}
+
+
+.respuestaok_caja {
+    background:#d1fae5; 
+    border-left:4px solid #10b981; 
+    padding:0.5rem 1rem; 
+    border-radius:6px; 
+    margin:0.5rem 0;
+}
+.respuestaok_titulo {
+    color:#065f46; 
+    font-weight:600; 
+    font-size:1.1em;
+}
+.respuestaok_subtitulo {
+    color:#047857; 
+    font-size:0.9em; 
+    margin-top:0.25rem;
+}
+.respuestaok_contenido {
+    color:#047857; 
+    font-size:0.9em; 
+    margin:0.5rem 0 0.5rem 1.5rem;
+}
+
+.presentacion_tabla_td_ico {
+    width:80px; 
+    text-align:center; 
+    vertical-align:middle; 
+    background:#f8fafc; 
+    border-right:1px solid #e0e7ef; 
+    padding:1rem; 
+    font-size:1.8em;
+}
+.presentacion_tabla_td_txt {
+    padding:1rem 1.25rem; 
+    vertical-align:middle; 
+    line-height:1.6;
 }
