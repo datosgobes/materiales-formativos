@@ -11,6 +11,8 @@
     --blue-aporta-light: 80, 143, 226;
     --amarillo-aporta: 249, 206, 63;
     --amarillo-aporta-light: 248, 232, 168;
+    --gris-aporta: 222 234, 252;
+    --gris-aporta-light: 247, 250, 255;
     
     /* Variables específicas para LiaScript */
     --lia-anthracite: 75,75,75;
@@ -196,19 +198,16 @@ ul.logo-list.primary-logos li:first-child img,
     }
 }
 
-.pdf-download-btn {
+.empezar-btn {
     display:inline-block;
     background:rgba(var(--color-highlight));
     color:rgba(var(--lia-white)) !important;
-    font-weight:600;
+    font-weight:400;
     padding:0.75em 1.5em;
-    border-radius:6px;
+    border-radius:1px;
     text-decoration:none;
-    font-size:1.05em;
-    box-shadow:0 2px 8px rgba(25,118,210,0.08);
-    transition:background 0.2s;
 }
-.pdf-download-btn:hover {
+.empezar-btn:hover {
     background:rgba(var(--red-aporta));
 }
 
@@ -237,7 +236,7 @@ ul.logo-list.primary-logos li:first-child img,
     font-weight: 600;
 }
 .ejemplo_caja {
-    margin:0 0 0 2rem;
+    margin: 0 0 1.5rem 2rem;
     border-left: .5rem solid #154481;
     overflow:hidden;
 }
@@ -251,7 +250,7 @@ ul.logo-list.primary-logos li:first-child img,
 }
 
 .aviso_caja {
-    margin:0 0 0 2rem;
+    margin: 0 0 1.5rem 2rem;
     border-left: .5rem solid #154481;
     overflow:hidden;
 }
@@ -265,7 +264,7 @@ ul.logo-list.primary-logos li:first-child img,
 }
 
 .masinfo_caja {
-    margin:0 0 0 2rem;
+    margin: 0 0 1.5rem 2rem;
     border-left: .5rem solid #154481;
     overflow:hidden;
 }
@@ -279,7 +278,7 @@ ul.logo-list.primary-logos li:first-child img,
 }
 
 .sabermas_caja {
-    margin:0 0 0 2rem;
+    margin: 0 0 1.5rem 2rem;
     border-left: .5rem solid #154481;
     overflow:hidden;
 }
@@ -293,7 +292,7 @@ ul.logo-list.primary-logos li:first-child img,
 }
 
 .casoestudio_caja {
-    margin:0 0 0 2rem;
+    margin: 0 0 1.5rem 2rem;
     border-left: .5rem solid #154481;
     overflow:hidden;
 }
@@ -307,8 +306,8 @@ ul.logo-list.primary-logos li:first-child img,
 }
 
 .ejercicio_caja {
+    margin: 0 0 1.5rem 2rem;
     border:1px solid rgba(var(--blue-aporta));
-    margin:1.5rem 0; 
     overflow:hidden;
 }
 .ejercicio_titulo {
@@ -325,24 +324,20 @@ ul.logo-list.primary-logos li:first-child img,
 
 
 .respuestaok_caja {
-    background:#d1fae5; 
-    border-left:4px solid #10b981; 
+    margin: 0 0 1.5rem 2rem;
+    background: rgba(var(--gris-aporta-light));
+    border-left:4px solid rgba(var(--blue-aporta));
     padding:0.5rem 1rem; 
-    border-radius:6px; 
-    margin:0.5rem 0;
 }
 .respuestaok_titulo {
-    color:#065f46; 
     font-weight:600; 
     font-size:1.1em;
 }
 .respuestaok_subtitulo {
-    color:#047857; 
     font-size:0.9em; 
     margin-top:0.25rem;
 }
-.respuestaok_contenido {
-    color:#047857; 
+.respuestaok_contenido { 
     font-size:0.9em; 
     margin:0.5rem 0 0.5rem 1.5rem;
 }
@@ -364,8 +359,8 @@ ul.logo-list.primary-logos li:first-child img,
 
 
 .destacado_caja {
+    margin: 0 0 1.5rem 2rem;
     border:1px solid rgba(var(--blue-aporta-light));
-    margin:1.5rem 0; 
     overflow:hidden;
 }
 .destacado_titulo {
@@ -377,11 +372,21 @@ ul.logo-list.primary-logos li:first-child img,
 }
 
 .subtitulo {
-    color:#154481; 
+    color:rgba(var(--blue-aporta));
     font-size:1.1em;
     font-weight:700
 }
 .subtitulo_borde {
-    border-bottom:2px solid #e0e0e0; 
+    border-bottom:2px solid rgba(var(--blue-aporta));
     padding-bottom:0.5rem;
+}
+
+.lia-table-responsive.has-thead-sticky .lia-table__head th {
+    background-color: rgba(var(--gris-aporta));
+}
+.lia-table.is-alternating .lia-table__row:nth-child(2n) td {
+    background-color: rgba(var(--gris-aporta-light));
+}
+.lia-table-responsive.has-thead-sticky.has-last-col-sticky .is-alternating .lia-table__row:nth-child(2n) td:last-child:before {
+    background-color: rgba(var(--gris-aporta-light));
 }
