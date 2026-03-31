@@ -3,6 +3,11 @@
  * Basado en dge-dcat-ap-es.css y adaptado para LiaScript
  */
 
+/*
+ * DGE LiaScript Custom Styles
+ * Basado en dge-dcat-ap-es.css y adaptado para LiaScript
+ */
+
 :root {
     /* Colores principales del repositorio DCAT-AP-ES */
     --red-aporta: 206, 14, 45;
@@ -389,4 +394,18 @@ ul.logo-list.primary-logos li:first-child img,
 }
 .lia-table-responsive.has-thead-sticky.has-last-col-sticky .is-alternating .lia-table__row:nth-child(2n) td:last-child:before {
     background-color: rgba(var(--gris-aporta-light));
+}
+
+.botones_doc {
+    display:inline-block; 
+    background:rgba(var(--gris-aporta));
+    color:#ffffff; 
+    font-size:0.9em; 
+    padding:0.5rem 1rem; 
+    border-radius:6px; 
+    text-decoration:none;
+}
+
+.text-success {
+    color: rgba(var(--blue-aporta));
 }
