@@ -395,6 +395,12 @@ ul.logo-list.primary-logos li:first-child img,
 .lia-table-responsive.has-thead-sticky.has-last-col-sticky .is-alternating .lia-table__row:nth-child(2n) td:last-child:before {
     background-color: rgba(var(--gris-aporta-light));
 }
+.lia-table__header, .lia-table__data {
+    min-width: 0 !important; 
+}
+.lia-table-responsive {
+    max-height: 200vh;
+}
 
 .lia-canvas.lia-mode--textbook .lia-slide__content:not(:lang(ae)):not(:lang(ar)):not(:lang(arc)):not(:lang(bcc)):not(:lang(bqi)):not(:lang(ckb)):not(:lang(dv)):not(:lang(fa)):not(:lang(glk)):not(:lang(he)):not(:lang(ku)):not(:lang(mzn)):not(:lang(nqo)):not(:lang(pnb)):not(:lang(ps)):not(:lang(sd)):not(:lang(ug)):not(:lang(ur)):not(:lang(yi)) {
     padding-left: 3rem !important;
